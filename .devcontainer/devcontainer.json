@@ -4,9 +4,13 @@
   "containerEnv": {
     "BOOT": "mint"
   },
-  "forwardPorts": [8006],
+  "forwardPorts": [8006, 80],
   "portsAttributes": {
     "8006": {
+      "label": "Web",
+      "onAutoForward": "notify"
+    },
+    "80": {
       "label": "Web",
       "onAutoForward": "notify"
     }
