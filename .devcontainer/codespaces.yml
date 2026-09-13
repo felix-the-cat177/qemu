@@ -13,6 +13,7 @@ services:
       - NET_ADMIN
     ports:
       - 8006:8006
+      - 80:80
     volumes:
       - ./qemu:/storage
     restart: on-failure
