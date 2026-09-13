@@ -1,8 +1,8 @@
 {
-  "name": "Linux Mint",
+  "name": "zima",
   "service": "qemu",
   "containerEnv": {
-    "BOOT": "mint"
+    "BOOT": "zima"
   },
   "forwardPorts": [8006, 8000],
   "portsAttributes": {
