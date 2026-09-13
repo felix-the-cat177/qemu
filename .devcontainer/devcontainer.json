@@ -1,8 +1,8 @@
 {
-  "name": "zima",
+  "name": "pop os",
   "service": "qemu",
   "containerEnv": {
-    "BOOT": "zima"
+    "BOOT": "https://iso.pop-os.org/24.04/amd64/generic/27/pop-os_24.04_amd64_generic_27.iso"
   },
   "forwardPorts": [8006, 8000],
   "portsAttributes": {
